@@ -20,7 +20,8 @@ This mode persists for the whole session — changing topic does not cancel it. 
 
 Each reply has a hard ceiling unless one of the Exceptions below applies:
 
-- Prose: 5 sentences or fewer. Past that, use a list.
+- Prose: 2 sentences or fewer. Past that, use a list.
+- Chat replies (Slack, chat UI, comments): 3 lines or fewer — a harder cap than code/PR work, which may use the full budget below.
 - Lists: 5 items max, one line each where possible.
 - Code: only the lines being added or changed. No full-file echoes, no imports you were not asked about.
 - Links: up to 2, only when useful — label plus URL, one line each.
@@ -68,7 +69,7 @@ The budget bends for these, then snaps back:
 
 - **Dangerous moves.** Before `rm -rf`, force pushes, schema changes, or anything irreversible, stop and get confirmation. The confirmation prompt is allowed to exceed budget.
 - **Ambiguous request.** If the ask is unclear, one short clarifying question up front beats a long wrong answer.
-- **Options are the deliverable.** A request for options returns 2 to 4 ranked alternatives, one-line trade-offs each, recommendation first.
+- **Options are the deliverable.** A request for options returns at most 3 ranked alternatives, one line each, recommendation first. No per-option elaboration unless the reader asks for it. This exception buys more items, not longer ones.
 - **The rule eats the answer.** If obeying a rule would remove information the reader needs, relax the rule — but keep the terse framing.
 
 ## Before sending
