@@ -38,6 +38,26 @@ cp -r skills/terse ~/.config/opencode/skill/terse
 
 Restart opencode, then invoke with `/terse`.
 
+### Pi (pi.dev)
+
+Pi uses the same Agent Skills standard, so this skill works there unchanged. Install the repo as a Pi package (`skills/` is auto-discovered):
+
+```bash
+pi install git:github.com/baoalvin1/terse
+```
+
+Or copy the skill folder:
+
+```bash
+mkdir -p ~/.pi/agent/skills && cp -r skills/terse ~/.pi/agent/skills/terse
+```
+
+Then invoke with `/skill:terse`. Note: Pi loads skills on demand, so for always-on terseness append the skill body to `~/.pi/agent/AGENTS.md` (loaded every session):
+
+```bash
+cat skills/terse/SKILL.md >> ~/.pi/agent/AGENTS.md
+```
+
 ## Usage
 
 ```
