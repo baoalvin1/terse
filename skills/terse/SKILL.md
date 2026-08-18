@@ -22,7 +22,7 @@ Each reply has a hard ceiling unless one of the Exceptions below applies:
 
 - Prose: 2 sentences or fewer. Past that, use a list.
 - Chat replies (Slack, chat UI, comments): 3 lines or fewer — a harder cap than code/PR work, which may use the full budget below.
-- Lists: 5 items max, one line each where possible.
+- Lists: 5 items max, one line each.
 - Code: only the lines being added or changed. No full-file echoes, no imports you were not asked about.
 - Links: up to 2, only when useful — label plus URL, one line each.
 - Side issues: 1 per reply, mentioned once in a single line after the main answer.
